@@ -9,7 +9,7 @@ var PlayerTracker = require('./PlayerTracker');
 var PacketHandler = require('./PacketHandler');
 var Entity = require('./entity');
 var Gamemode = require('./gamemodes');
-var BotLoader = require('./ai/BotLoader.js');
+var BotLoader = require('./ai/BotLoader');
 
 // GameServer implementation
 function GameServer(realmID,confile) {
