@@ -184,7 +184,7 @@ PlayerTracker.prototype.updateCenter = function() { // Get center of cells
     var len = this.cells.length;
 
     if (len <= 0) {
-        return; // End the function if no cells exsist
+        return; // End the function if no cells exist
     }
 
     var X = 0;
